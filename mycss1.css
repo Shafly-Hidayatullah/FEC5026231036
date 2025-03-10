@@ -1,0 +1,40 @@
+body {
+  font-family: Inter;
+  background-color: rgb(168, 230, 235);
+  color: rgb(0, 0, 0);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+img{
+  width: 432px;
+  height: 768px;
+  object-fit:contain;
+  object-position:Left center ;
+}
+
+h2 {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-size: larger;
+  font-weight: 100;
+  font-style: italic;
+  font
+
+}
+p {
+  text-decoration: solid;
+}
+
+a:link {
+  color: rgb(184, 17, 11);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(184, 173, 11);
+  text-decoration: solid;
+  font-weight: bold;
+}
+a:visited {
+  color: rgb(184, 17, 11);
+  text-decoration: none;
+}
