@@ -1,0 +1,141 @@
+/* Reset dasar */
+body,
+h2,
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  flex: 1;
+}
+
+.title h2 {
+  font-size: 18px;
+}
+
+.title p {
+  font-size: 12px;
+  color: gray;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  background: white;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 100px;
+}
+
+.search-bar button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Grid Layout */
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.equipment-item {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.equipment-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.status {
+  display: block;
+  font-size: 12px;
+  color: green;
+}
+
+/* Badge Label */
+.badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: blue;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* Tombol Booking */
+.book-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Navigasi Bawah */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 10px 0;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+
+.bottom-nav .active {
+  color: #007bff;
+}
