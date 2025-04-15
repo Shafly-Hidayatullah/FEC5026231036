@@ -15,13 +15,13 @@
     />
     <style>
       body {
-        background-color: #f4f4f4;
+        background-color: #dfe1e2;
         font-family: Arial, sans-serif;
       }
 
       .profile-img {
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
         object-fit: cover;
         border-radius: 50%;
         margin-bottom: 15px;
@@ -34,10 +34,11 @@
         color: #000;
         text-align: left;
         padding: 12px 20px;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 12px;
         text-decoration: none;
         transition: all 0.3s ease;
+        position: relative;
       }
 
       .btn-custom:hover {
@@ -46,7 +47,7 @@
       }
 
       .container-custom {
-        max-width: 400px;
+        max-width: 550px;
         margin: auto;
         padding: 40px 20px;
         text-align: center;
@@ -61,7 +62,7 @@
       .subtitle {
         font-size: 14px;
         color: #555;
-        margin-bottom: 30px;
+        margin-bottom: 7px;
       }
 
       .btn-content {
@@ -76,9 +77,17 @@
       }
 
       .btn-left img {
-        width: 24px;
-        height: 24px;
-        margin-right: 12px;
+        width: 35px;
+        height: 35px;
+      }
+      .btn-text-centered {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+        pointer-events: none;
+        font-weight: bold;
       }
 
       .dots-icon-wrapper {
@@ -94,8 +103,8 @@
       }
 
       .social-icons img {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         transition: transform 0.3s;
       }
 
@@ -118,10 +127,8 @@
       <div class="username">@yescamera.surabaya</div>
 
       <!-- Subtitle -->
-      <div class="subtitle">
-        YES Camera | Since 1989 CAMERA REPAIR SPECIALIST - Cek juga
-        @yescamera.katalog
-      </div>
+      <div class="subtitle">YES Camera | Since 1989 CAMERA REPAIR</div>
+      <div class="subtitle">SPECIALIST - Cek juga @yescamera.katalog</div>
 
       <!-- Links -->
       <a href="https://wa.me/6289602809919" class="btn-custom d-block">
@@ -131,7 +138,9 @@
               src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\brand-whatsapp.svg"
               alt="WA Tambak Anakan (Konsultasi Kendala & Servis)"
             />
-            WA Tambak Anakan (Konsultasi Kendala & Servis)
+            <div class="btn-text-centered">
+              WA Tambak Anakan (Konsultasi Kendala & Servis)
+            </div>
           </div>
           <div class="dots-icon-wrapper">
             <i class="fas fa-ellipsis-v"></i>
@@ -146,7 +155,9 @@
               src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\brand-whatsapp.svg"
               alt="WA Toko ITC (Jual Beli & Tukar-Tambah)"
             />
-            WA Toko ITC (Jual Beli & Tukar-Tambah)
+            <div class="btn-text-centered">
+              WA Toko ITC (Jual Beli & Tukar-Tambah)
+            </div>
           </div>
           <div class="dots-icon-wrapper">
             <i class="fas fa-ellipsis-v"></i>
@@ -161,7 +172,7 @@
               src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\shopping-cart.svg"
               alt="Shopee: Yes.Camera"
             />
-            Shopee: Yes.Camera
+            <div class="btn-text-centered">Shopee: Yes.Camera</div>
           </div>
           <div class="dots-icon-wrapper">
             <i class="fas fa-ellipsis-v"></i>
@@ -176,7 +187,7 @@
               src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\shopping-cart.svg"
               alt="Tokopedia: YesCamera"
             />
-            Tokopedia: YesCamera
+            <div class="btn-text-centered">Tokopedia: YesCamera</div>
           </div>
           <div class="dots-icon-wrapper">
             <i class="fas fa-ellipsis-v"></i>
@@ -191,7 +202,9 @@
               src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\headset.svg"
               alt="Layanan Pengaduan Konsumen (Kritik & Saran)"
             />
-            Layanan Pengaduan Konsumen (Kritik & Saran)
+            <div class="btn-text-centered">
+              Layanan Pengaduan Konsumen (Kritik & Saran)
+            </div>
           </div>
           <div class="dots-icon-wrapper">
             <i class="fas fa-ellipsis-v"></i>
@@ -206,7 +219,7 @@
               src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\building-store.svg"
               alt="Google Page Yes Camera Surabaya"
             />
-            Google Page Yes Camera Surabaya
+            <div class="btn-text-centered">Google Page Yes Camera Surabaya</div>
           </div>
           <div class="dots-icon-wrapper">
             <i class="fas fa-ellipsis-v"></i>
@@ -224,7 +237,9 @@
               src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\brand-instagram.svg"
               alt="Toko Kamera Surabaya (@yescamera.katalog)"
             />
-            Toko Kamera Surabaya (@yescamera.katalog)
+            <div class="btn-text-centered">
+              Toko Kamera Surabaya (@yescamera.katalog)
+            </div>
           </div>
           <div class="dots-icon-wrapper">
             <i class="fas fa-ellipsis-v"></i>
